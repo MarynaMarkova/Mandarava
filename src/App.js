@@ -1,25 +1,64 @@
-import logo from './logo.svg';
-import './App.css';
+// import Mandarava_FULL from "./Mandarava_FULL.js";
+// import Mandarava from "./img/Mandarava.png";
+import Piece1 from "./Piece1.js";
+// import RandomNuber from "./RandomNumber";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <a
+        href="https://marynamarkova.github.io/Mandarava-ua/"
+        className="icon"
+        title="Go Home"
+      >
+        <i className="fa-solid fa-house"></i>
+      </a>
+      <div className="Container">
+        {/* <div className="Mandarava">
+          <img className="img-fluid" src={Mandarava} alt="Mandarava" />
+        </div>{" "} */}
+        {/* <Mandarava_FULL /> */}
+        {/* <RandomNuber /> */}
+        <Piece1 />
+        <div className="Author">
+          <p>Падмасамбгава </p>
+          <p>«Життя й звільнення принцеси Мандарави»</p>
+        </div>
+      </div>
+      <footer>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <a
+            href="https://github.com/MarynaMarkova/Bardo/tree/master"
+            className="profileLink"
+            target="_blank"
+            rel="noreferrer"
+            title="Github code"
+          >
+            Open-source
+          </a>
+          {" by "}
+          <a
+            href="https://marynamarkova.github.io/"
+            className="profileLink"
+            target="_blank"
+            rel="noreferrer"
+            title="Personal page"
+          >
+            Maryna Markova
+          </a>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <p className="PhotoBy PhotoInside">
+          Photo "Starry Night" by{" "}
+          <a href="https://unsplash.com/@weirick?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+            Jake Weirick
+          </a>{" "}
+          on{" "}
+          <a href="https://unsplash.com/photos/XL0SE4rtRwg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+            Unsplash
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
-
-export default App;

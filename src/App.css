@@ -2,37 +2,143 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.App .Container {
+  margin: 50px auto;
+  max-width: 800px;
+  /* background-color: rgb(4, 1, 19); */
+  background-color: rgb(12, 1, 6);
   color: white;
+  padding: 50px;
+  border-radius: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: larger;
+  line-height: 1.5;
 }
 
-.App-link {
-  color: #61dafb;
+h1,
+h2 {
+  font-family: "Alegreya SC", serif, cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 33px;
+}
+
+h3 {
+  font-family: "Pacifico", serif;
+  font-size: 36px;
+}
+/* h3 {
+  display: inline-block;
+  border: solid 1px white;
+  border-radius: 50%;
+  padding: 0.7rem 1.7rem 1rem 1.7rem;
+  margin-bottom: 2rem;
+} */
+p {
+  margin: 20px auto;
+}
+
+img {
+  max-width: 600px;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+ul {
+  text-align: left;
+}
+
+em {
+  text-align: left;
+}
+
+.Author {
+  font-family: "Alegreya SC", serif;
+}
+
+footer,
+a {
+  color: rgb(124, 139, 158);
+}
+
+i {
+  color: white;
+  margin-top: 20px;
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+.term {
+  color: rgb(0, 214, 214);
+}
+
+.PhotoBy {
+  font-size: 8px;
+  margin-bottom: 30px;
+}
+
+.Prayer {
+  background-color: rgba(11, 10, 22, 0.582);
+  padding: 30px 30px;
+  border-radius: 15px;
+}
+
+.Rigpa {
+  display: block;
+  margin: 0 auto;
+  max-width: 280px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.Blue,
+.White,
+.Yellow,
+.Red,
+.Green,
+.FourLights,
+.SoftGreen {
+  max-width: 700px;
+  border-radius: 15px;
+  margin: 20px auto;
+}
+
+.Blue {
+  background-color: rgb(12, 12, 170);
+}
+
+.White {
+  background-color: white;
+}
+
+.Yellow {
+  background-color: yellow;
+}
+
+.Red {
+  background-color: rgb(216, 15, 15);
+}
+
+.Green {
+  background-color: rgb(0, 199, 99);
+}
+
+.FourLights {
+  background: conic-gradient(
+    rgb(216, 15, 15),
+    white,
+    #02b3eb,
+    yellow,
+    rgb(216, 15, 15)
+  );
+}
+
+.SoftGreen {
+  background-color: rgb(5, 95, 5);
 }
