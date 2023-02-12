@@ -1,6 +1,6 @@
 // import Mandarava_FULL from "./Mandarava_FULL.js";
 // import Mandarava from "./img/Mandarava.png";
-import Piece1 from "./Piece1.js";
+import Piece3 from "./Piece3.js";
 // import RandomNuber from "./RandomNumber";
 import "./App.css";
 
@@ -20,7 +20,7 @@ export default function App() {
         </div>{" "} */}
         {/* <Mandarava_FULL /> */}
         {/* <RandomNuber /> */}
-        <Piece1 />
+        <Piece3 />
         <div className="Author">
           <p>Падмасамбгава </p>
           <p>«Життя й звільнення принцеси Мандарави»</p>
